@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: white;
+}
+.heading{
+    text-align: center;
+    margin-top: 25px;
+}
+.heading h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 10px;
+}
+.table-box{
+    margin: 50px auto;
+}
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #555;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.5);
+}
+.table-cell{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.table-head{
+    background: purple;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+}
+.table-head .table-cell{
+    border-right: none;
+}
+.last-cell{
+    border-right: none;
+}
+.first-cell{
+    text-align: left;
+    padding-left: 10px;
+}
+.heading h2{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 10px;
+}
+.heading h3{
+    font-size: 50px;
+    color: brown;
+    margin-bottom: 10px;
+}
+.tours{
+    display: flex;
+    justify-content: space-around;
+}
+.place{
+    display: inline;
+    text-align: center;
+    border-radius: 12px;
+    margin-left: 100px;
+}
+.places h4{
+    color: rebeccapurple;
+    font-size: 20px;
+    letter-spacing: 3px;
+    border-radius: 1px;
+    margin-left: 100px;
+    }

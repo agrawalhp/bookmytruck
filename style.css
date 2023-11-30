@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: white;
+}
+.heading{
+    text-align: center;
+    margin-top: 25px;
+}
+.heading h1{
+    font-size: 50px;
+    color: aqua;
+    margin-bottom: 10px;
+}
+.heading p{
+    font-size: 20px;
+    color: red;
+    margin-bottom: 50px;
+}
+.about-us{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.about-us img{
+    flex: 0 50%;
+    max-width: 70%;
+    height: 500px;
+}
+.content{
+    padding: 35px;
+}
+.content h2{
+    color: brown;
+    font-size: 24px;
+    margin: 15px 0px;
+}
+.content p{
+    color: teal;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0px;
+}
+.mvv-container{
+    max-width: 90%;
+    margin: 50px auto 0;
+}
+.mvv-container .mvv-block{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mvv-container .mvv-block .image{
+    flex: 0 0 auto;
+    width: 400px;
+}
+.mvv-container .mvv-block .image img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,.3);
+}
+.mvv-container .mvv-block .content1{
+    flex: 0 0 auto;
+    width: calc(100% - 400px);
+    box-sizing: border-box;
+    align-self: center;
+}
+.mvv-container .mvv-block .content1 h5{
+    font-weight: 700;
+    font-size: 22px;
+    color: blue;
+    margin-bottom: 10px;
+}
+@media  screen and (min-width: 1024px) {
+    .mvv-container .mvv-block:nth-child(odd) .image
+    {
+        order: 1;
+    }
+    .mvv-container .mvv-block:nth-child(even) .image
+    {
+        order: 2;
+    }
+    .mvv-container .mvv-block:nth-child(odd) .content1
+    {
+        order: 2;
+        padding-left: 30px;
+    }
+    .mvv-container .mvv-block:nth-child(even) .content1
+    {
+        order: 1;
+        padding-right: 30px;
+    }
+}
+.body{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.heading1{
+    width: 30%;
+    text-align: center;
+    color: tomato;
+}
+.heading1 h1{
+    font-size: 50px;
+}
+.tours{
+
+    display: flex;
+    justify-content: space-around;
+}
+.place{
+    display: inline;
+    text-align: center;
+    border-radius: 12px;
+    margin-left: 100px;
+}
+.places h2{
+    color: red;
+    font-size: 35px;
+    letter-spacing: 3px;
+    border-radius: 1px;
+    padding: 30px 30px;
+    background-color: black;
+    margin-left: 100px ;
+}
